@@ -4,7 +4,7 @@ def base_hash
   my_base_hash = {
     :north_america => {}
   }
-	return 
+	return my_base_hash
 end
 
 def monopoly_with_second_tier
