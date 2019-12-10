@@ -13,7 +13,7 @@ def monopoly_with_second_tier
   # they'll guide you in how to modify what you just did to have more
   # complexity.
   my_base_hash = {
-	  :railroads =>{:pieces => {}},
+	  :railroads => {:pieces => 4},
 	}
 	return my_base_hash
 end
@@ -23,16 +23,6 @@ def monopoly_with_third_tier
   # you built in the previous method. Run the tests. They will fail, but
   # they'll guide you in how to modify what you just did to have more
   # complexity.
-  my_base_hash = {
-	  :north_america =>{
-	    "Canada" => {},
-	    "USA" => {}
-	  },
-	  :africa => {
-	    "Ghana" => {},
-	    "Nigeria" => {}
-	  }
-	}
 	return my_base_hash
 end
 
@@ -41,27 +31,5 @@ def monopoly_with_fourth_tier
   # you built in the previous method. Run the tests. They will fail, but
   # they'll guide you in how to modify what you just did to have more
   # complexity.
-  my_base_hash = {
-	  :north_america =>{
-	    "Canada" => {
-	      :capital => "Ottawa",
-	      :capital_climate => "Kőppen Dfb"
-	    },
-	    "USA" => {
-	      :capital => "Washington D.C.",
-        :capital_climate => "Kőppen Cfa"
-	    }
-	  },
-	  :africa => {
-	    "Ghana" => {
-	      :capital => "Accra",
-        :capital_climate => "Kőppen Aw"
-	    },
-	    "Nigeria" => {
-	      :capital => "Abuja",
-        :capital_climate => "Kőppen Aw"
-	    }
-	  }
-	}
 	return my_base_hash
 end
