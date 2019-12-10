@@ -57,7 +57,8 @@ def monopoly_with_fourth_tier
         :capital_climate => "Kőppen Aw"
 	    },
 	    "Nigeria" => {
-	      
+	      :capital => "Abuja",
+        :capital_climate => "Kőppen Aw"
 	    }
 	  }
 	}
