@@ -44,9 +44,11 @@ def monopoly_with_fourth_tier
 	  :north_america =>{
 	    "Canada" => {
 	      :capital => "Ottawa",
-	      :capital_climate => ""
+	      :capital_climate => "Kőppen Dfb"
 	    },
-	    "USA" => {}
+	    "USA" => {
+	      
+	    }
 	  },
 	  :africa => {
 	    "Ghana" => {},
