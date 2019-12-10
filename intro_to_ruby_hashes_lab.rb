@@ -53,9 +53,12 @@ def monopoly_with_fourth_tier
 	  },
 	  :africa => {
 	    "Ghana" => {
-	      
+	      :capital => "Accra",
+        :capital_climate => "Kőppen Aw"
 	    },
-	    "Nigeria" => {}
+	    "Nigeria" => {
+	      
+	    }
 	  }
 	}
 	return my_base_hash
