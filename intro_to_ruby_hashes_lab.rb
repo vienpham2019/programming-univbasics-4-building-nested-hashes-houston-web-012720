@@ -33,10 +33,10 @@ def monopoly_with_third_tier
         :four_pieces_owned => 200
       },
       :names => {
-        :reading_railroad => {"mortgage_value" => "100$"},
-        :pennsylvania_railroad => {"mortgage_value" => "200$"},
-        :b_and_o_rairoad => {"mortgage_value" => "400$"},
-        :shortline_railroad => {"mortgage_value" => "800$"}
+        :reading_railroad => {},
+        :pennsylvania_railroad => {},
+        :b_and_o_rairoad => {},
+        :shortline_railroad => {}
       }
     }
   }
@@ -50,7 +50,7 @@ def monopoly_with_fourth_tier
   # complexity.
 	my_base_hash = {
     :railroads => {
-      :pieces => 4,
+      :piece => 4,
       :rent_in_dollars => {
         :one_pieces_owned => 25,
         :two_pieces_owned => 50,
@@ -58,10 +58,10 @@ def monopoly_with_fourth_tier
         :four_pieces_owned => 200
       },
       :names => {
-        :reading_railroad => {},
-        :pennsylvania_railroad => {},
-        :b_and_o_rairoad => {},
-        :shortline_railroad => {}
+        :reading_railroad => {"mortgage_value" => "100$"},
+        :pennsylvania_railroad => {"mortgage_value" => "200$"},
+        :b_and_o_rairoad => {"mortgage_value" => "400$"},
+        :shortline_railroad => {"mortgage_value" => "800$"}
       }
     }
   }
