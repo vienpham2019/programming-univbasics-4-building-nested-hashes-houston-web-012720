@@ -13,8 +13,7 @@ def monopoly_with_second_tier
   # they'll guide you in how to modify what you just did to have more
   # complexity.
   my_base_hash = {
-	  :railroads =>{},
-	  :pieces => {}
+	  :railroads =>{:pieces => {}},
 	}
 	return my_base_hash
 end
