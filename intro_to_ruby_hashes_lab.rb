@@ -47,11 +47,14 @@ def monopoly_with_fourth_tier
 	      :capital_climate => "Kőppen Dfb"
 	    },
 	    "USA" => {
-	      
+	      :capital => "Washington D.C.",
+        :capital_climate => "Kőppen Cfa"
 	    }
 	  },
 	  :africa => {
-	    "Ghana" => {},
+	    "Ghana" => {
+	      
+	    },
 	    "Nigeria" => {}
 	  }
 	}
